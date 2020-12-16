@@ -6,7 +6,7 @@ Craft solutions to the exercises below. Write your solutions in `solutions.js`. 
 
 To install dependencies, run `npm install`.
 To run tests, run `npm test`.
-To run eslint, run `npx eslint solutions.js`
+To run eslint, run `eslint solutions.js`
 
 ### Questions
 1. Create a function, `makeAccount`, that takes a number parameter representing a starting balance and **returns an object with three methods** - `checkBalance`, `add`, `subtract`. `checkBalance` should return the current balance. `add` should take a number parameter and add it to the current balance. `add` should return `<<number>> added`. `subtract` should take a number parameter and subtract it from the current balance. `subtract` should return `<<number>> subtracted`.
