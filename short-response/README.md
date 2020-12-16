@@ -35,4 +35,4 @@ Answer each of the questions below clearly and concisely. Include code snippets 
 **4. What is encapsulation? How do constructors and prototypes in JavaScript help us write encapsulated programs?**
 
 
-**5. What is polymorphism?
+**5. What is polymorphism?**
