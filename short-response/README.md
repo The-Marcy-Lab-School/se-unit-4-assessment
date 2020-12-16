@@ -32,25 +32,7 @@ Answer each of the questions below clearly and concisely. Include code snippets 
 **3. What is a closure? How does it allow us to create private data?**
 
 
-**4. What will the following code log to the console? Why?**
-
-  ```javascript
-  function createGreeting(greeting){
-    return function(name){
-      return `${greeting}, ${name}!`
-    }
-  }
-
-  console.log( createGreeting("Hello") )
-  console.log( createGreeting("Buona sera")("Reuben") )
-  ```
+**4. What is encapsulation? How do constructors and prototypes in JavaScript help us write encapsulated programs?**
 
 
-**5. What is encapsulation? How do constructors and prototypes in JavaScript help us write encapsulated programs?**
-
-
-
-**6. What is the difference between an object's prototype and the prototype property of a function? What is the relationship between the two?**
-
-
-**7. What is polymorphism? Illustrate using code.**
+**5. What is polymorphism?
