@@ -12,21 +12,6 @@ test('Question 1', () => {
 
 // Question 2
 test('Question 2', () => {
-  const myAccount = new solutions.SavingsAccount('Reuben');
-  expect(myAccount.name).toBe('Reuben');
-  expect(myAccount.showBalance()).toBe('$0');
-  expect(myAccount.depositFunds(100)).toBe('$100 Deposited');
-  expect(myAccount.showBalance()).toBe('$100');
-  expect(myAccount.depositFunds(-100)).toBe('Please include a deposit amount that is greater than 0');
-  expect(myAccount.showBalance()).toBe('$100');
-  expect(myAccount.withdrawFunds(75)).toBe('$75 withdrawn');
-  expect(myAccount.showBalance()).toBe('$25');
-  expect(myAccount.withdrawFunds(26)).toBe('Insufficient Funds');
-  expect(myAccount.showBalance()).toBe('$25');
-});
-
-// Question 3
-test('Question 3', () => {
   const myPhone = new solutions.Phone('3448731233');
   expect(myPhone.addContact({name: "Reuben", phoneNumber: '3462217541'})).toBe('Reuben added.');
   expect(myPhone.contacts).toEqual([{name: "Reuben", phoneNumber: '3462217541'}]);
@@ -44,8 +29,8 @@ test('Question 3', () => {
   expect(myPhone.call('Paul')).toBe('Invalid');
 });
 
-// Question 4
-test('Question 4', () => {
+// Question 3
+test('Question 3', () => {
   const reubenPhone = new solutions.AppleiPhone('2234432211', 'iPhone 14');
   const mayasPhone = new solutions.AppleiPhone('3349987745', 'iPhone 6');
   const devontesPhone = new solutions.Phone('9932103000');
@@ -55,21 +40,4 @@ test('Question 4', () => {
   expect(mayasPhone.sendiMessage(reubensPhone, 'Hey!')).toBe('Message sent.');
   expect(reubensPhone.sendiMessage(devontesPhone, 'DYFR!')).toBe('Message could not be sent.');
   expect(mayasPhone.sendiMessage(devontesPhone, '☀️')).toBe('Message could not be sent.');
-});
-
-// Question
-test('Question 5', () => {
-  const person = new solutions.Person();
-  const student = new solutions.Student();
-  const gradStudent = new solutions.Student();
-  const doctor = new solutions.Doctor();
-  const professor = new solutions.Professor();
-  expect(student instanceof solutions.Person).toBe(true);
-  expect(graduateStudent instanceof solutions.Person).toBe(true);
-  expect(graduateStudent instanceof solutions.Person).toBe(true);
-  expect(professor instanceof solutions.Person).toBe(true);
-  expect(professor instanceof solutions.Doctor).toBe(false);
-  expect(doctor instanceof solutions.Person).toBe(true);
-  expect("invoice" in doctor).toBe(true);
-  expect("payTax" in professor).toBe(true);
 });
