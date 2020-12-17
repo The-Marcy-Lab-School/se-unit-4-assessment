@@ -22,7 +22,7 @@ test('Question 2', () => {
   expect(myPhone.removeContact('Reuben')).toBe('Reuben removed.');
   expect(myPhone.contacts).toEqual([{name: "Peter", phoneNumber: '3499217541', extraData: 'is perfectly fine'}]);
   expect(myPhone.removeContact('Paul')).toBe('Contact not found.');
-  expect(myPhone.call('Peter')).toBe('Contact not found.');
+  expect(myPhone.call('Peter')).toBe('Calling Peter...');
   expect(myPhone.call('3499217541')).toBe('Calling Peter...');
   expect(myPhone.call('1234567890')).toBe('Calling 1234567890');
   expect(myPhone.call('888')).toBe('Invalid');
@@ -31,7 +31,7 @@ test('Question 2', () => {
 
 // Question 3
 test('Question 3', () => {
-  const reubenPhone = new solutions.AppleiPhone('2234432211', 'iPhone 14');
+  const reubensPhone = new solutions.AppleiPhone('2234432211', 'iPhone 14');
   const mayasPhone = new solutions.AppleiPhone('3349987745', 'iPhone 6');
   const devontesPhone = new solutions.Phone('9932103000');
   expect(reubensPhone instanceof solutions.Phone).toBe(true);  

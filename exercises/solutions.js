@@ -7,7 +7,7 @@ class Phone {
 }
 
 class AppleiPhone {
-  
+
 }
 
 module.exports = {
