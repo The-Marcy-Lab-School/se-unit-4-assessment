@@ -32,7 +32,7 @@ Answer each of the questions below clearly and concisely. Include code snippets 
 **3. What is a closure? How does it allow us to create private data?**
 
 
-**4. What is encapsulation? How do constructors and prototypes in JavaScript help us write encapsulated programs?**
+**4. What is encapsulation? How do classes in JavaScript help us write encapsulated programs?**
 
 
 **5. What is polymorphism?**
