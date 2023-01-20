@@ -26,7 +26,7 @@
 * **0**: Your code has major syntax errors.
 
 ### Design Score
-* **3**: Your design has all of the required features implemented cleanly, your design's features are thoroughly tested, and your code is free of errors (or mostly free of errors).
+* **3**: Your design has all of the required features implemented cleanly, your design's features are thoroughly tested, and your code is free of errors.
 * **2**: Your design has all of the required features, but your code is not tested and/or contains a minor error(s).
 * **1**: Your design does not implement a required feature, is not tested and contains major errors.
 * **0**: Your design does not implement most of the required features.
