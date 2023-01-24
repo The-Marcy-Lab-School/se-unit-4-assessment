@@ -20,7 +20,7 @@
 * **0**: Your algorithm will not produce any solution to the given problem, or the solution is grossly incorrect.
 
 ### Code Style
-* **3**: Your code is readable, conventional, and utilizes ES6 features to enhance readability efficiency. All variables and functions are thoughtfully named.
+* **3**: Your code is readable, conventional, and utilizes ES6 features to enhance readability efficiency. All variables and functions are thoughtfully named and follow naming conventions.
 * **2**: Your code has minor style errors (spacing, quotations, etc), vague variable names.
 * **1**: Your code has multiple style errors, poorly named variables, or minor syntax errors. 
 * **0**: Your code has major syntax errors.
